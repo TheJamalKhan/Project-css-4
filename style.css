@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 31px 83px;
+    height: 94px;
+    background-color: black;
+   
+}
+.list {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    list-style: none;
+    gap: 63px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins";
+    line-height: 24px;
+    margin-left: 64px;
+    color: #ffffff;
+}
+.logo {  
+      cursor: pointer;
+}
+ img {
+    width: 92px;
+    height: 32px;
+ }
+ .line {
+    width: 1px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-left: 63px;
+ }
+ .grow-list {
+    flex-grow: 1;
+ }
+ .button-a {
+    padding: 5px 15px 5px 15px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 400px;
+  }
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   margin-top: 140px;
+   font-weight: 600;
+   font-style: normal;
+  
+}
+   
+.hero-heading {
+    max-width: 846px;
+    font-size: 80px;
+    font-weight: 700;
+   line-height: 98px;
+   text-align: center;
+   font-family: "Poppins"; 
+
+}
+.hero-paragraph {
+   margin-left: 90px;
+   font-size: 30px;
+   line-height: 60px;
+   font-weight: 100;
+   font-style: normal;
+}
+.button-b {
+    background: #ba0cc5;
+    border-radius: 11.2308px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    color: #ffffff;
+    border: none;
+    padding: 14px 22px;
+    margin-top: 64px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.button-a:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+.button-b:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+.hero-section {
+    background-image: url("./bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    margin-top: 0px;
+  }
